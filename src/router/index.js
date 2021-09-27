@@ -32,7 +32,7 @@ router.beforeEach(async (to, from, next) => {
   if (to.matched.some((record) => record.meta.requiresAuth)) {
     if (!store.getters.getAuthState) {
       next({
-        path: "/auth",
+        path: "/login",
       });
     }
     next();
