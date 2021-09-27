@@ -1,24 +1,18 @@
-# test-odm
+# Тестовое задание для OMD OM Group
+## Потыкать можно тут: https://izmailovaanaztasya.github.io/Vue-Curves-TestApp
 
-## Project setup
-```
-npm install
+
+### Для локального тестирования
+Загрузите проект к себе на компьютер
+
+```bash
+git clone https://github.com/IzmailovaAnaztasya/Vue-Curves-TestApp
 ```
 
-### Compiles and hot-reloads for development
+Передйтите в папку с проектом и запустите команды
 ```
+npm i
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Наслаждайтесь (или нет) увиденным по адресу http://localhost:8080
